@@ -1,5 +1,19 @@
-#Explain your work
+# Explain your work
 
-#Question 1
-for x in range(a):
-	print(a)
+# Answer Part1
+# Taking input form user
+username = input("Enter Username: ")
+password = input("Enter Password: ")
+
+# Checking values
+if username == "asli" and password == "Hi":
+    print("You were successful")
+else:
+    print("You were not successful")
+
+# Answer Part2
+value = {"username": input("Enter Username: "), "password": input("Enter Password : ")}  # defining dictionary
+if value["username"] == "asli" and value["password"] == "Hi":
+    print("You were successful")
+else:
+    print("You were not successful")
